@@ -1,9 +1,9 @@
 <div class='container'>
   <!-- Logo -->
-  <header class ='banner-img'>
-    <a class="header" href="#">
+  <!-- <header class ='banner-img'>
+    <a class="header" href="<?php echo home_url(); ?>">
       <img id ='header-img' src ='<?php bloginfo('template_directory'); ?>/img/ada-logo2.png'/>
-    </a>
+    </a> -->
     <!-- mobile view -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class = container-fluid>
@@ -20,5 +20,10 @@
         </div>
       </div>
     </nav>
+    <header>
+      <a class="header" href="<?php echo home_url(); ?>">
+        <img id ='header-img' src ='<?php bloginfo('template_directory'); ?>/img/ada-logo2.png'/>
+      </a>
+
   </header>
 </div>
