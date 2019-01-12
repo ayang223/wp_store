@@ -11,3 +11,5 @@ Author: Kyle Goss
 @import url("css/variables.css");
 @import url("css/main.css");
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {font-family: 'Quicksand', sans-serif;color: #333;font-size: 1rem;}

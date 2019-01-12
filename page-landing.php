@@ -9,14 +9,16 @@
 
 <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
   <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-
+    <div class="container-a container mtb-25">
+      <br>
+      <?php the_content(); ?>
+      <br>
     </div>
   </div>
 
 <main>
-<?php the_title(); ?>
-<?php the_content(); ?>
+  <div class="container mtb-25">
+  </div>
 </main>
 
 <?php endwhile; else: ?>
