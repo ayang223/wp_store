@@ -3,7 +3,7 @@
 .bg-green{background-color: green;}
 
 /* DEFAULTS */
-:root {font-size: 16pt;}
+:root {font-size: 14pt;}
 * {font-family: 'Quicksand', sans-serif;color: #333;font-size: 1rem;}
 body,html {margin: 0;}
 img {max-width: 100%;}
@@ -18,11 +18,17 @@ img {max-width: 100%;}
   max-height: 300px;
   height: auto;
   width: auto;
-  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 
 /* wp nav */
+.nav{
+  display: flex;
+}
+
 #menu-navbar{
     list-style: none;
 }
@@ -30,11 +36,16 @@ img {max-width: 100%;}
 #menu-navbar li{
   float: left;
   text-align: justify;
+  margin:auto;
+  /* display: flex;
+  flex:1 0 0%;
+	justify-content:space-between */
 }
 
 
 #menu-navbar li a{
   color: grey;
+
 }
 
 #menu-navbar li a:hover{
@@ -43,7 +54,10 @@ img {max-width: 100%;}
 
 .sub-menu{
   list-style: none;
-  padding-left: 20px;
+  display: none;
+  position: relative;
+  left: -50px;
+  top: 5px;
 }
 
 .sub-menu li{
@@ -60,7 +74,8 @@ img {max-width: 100%;}
 .sub-menu li{
   clear: left;
   background-color: #F8F8F8;
-  width: 120px;
+  width: 110%;
+  padding-left: 10px;
 }
 
 .menu-navbar-container{
@@ -70,6 +85,7 @@ img {max-width: 100%;}
 .menu-item{
    float:left;
    width:20%;
+   padding-left: 5vh;
 }
 
 .show ul li{
@@ -80,14 +96,112 @@ img {max-width: 100%;}
   height: auto;
 }
 
+.fa-caret-down{
+  font-size: 14px;
+  padding-left: 5px;
+}
+
 
 /* jumptron */
 .jumbotron{
-  margin-top: 20px;
+  /* margin-top: 20px; */
   background-image: url(../img/bg.jpg);
   background-size: cover;
   height: 75vh;
   background-position: center;
+  margin-bottom: 0px;
+}
+
+/* footer */
+.footer_div{
+  padding-bottom: 0px;
+  padding-top: 15px;
+}
+
+.p-cr{
+  text-align: center;
+  color: white;
+}
+
+.copyright{
+  background: black;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.bottom_ul{
+  list-style: none;
+}
+
+.bottom_ul li{
+  clear: left;
+}
+
+.bottom_ul li a{
+  color: white
+}
+
+.info_ul{
+  list-style: none;
+}
+
+.footer-ul{
+  list-style: none;
+}
+
+.social_media_ul{
+  list-style: none;
+}
+
+footer{
+  background: #0c1a1e;
+}
+
+footer p{
+  color: white;
+  font-size:
+}
+
+footer h6{
+  color: white;
+}
+
+footer li{
+  color: white;
+}
+
+.fab{
+  color: white;
+}
+
+.fa{
+  color: white;
+}
+
+
+/* contact */
+.div-left{
+  width:29%
+  ;padding:0 10px 0 0;
+  float:left;
+}
+
+.div-right{
+  width:69%;
+  padding:0 10px 0 0;
+  float:right;
+}
+
+.panel-body{
+  clear:both;
+}
+
+
+/* portfolio */
+.portfolio-content{
+  column-count: 2;
+	column-gap: 10px;
+	column-rule: none;
 }
 
 .container-a {

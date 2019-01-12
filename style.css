@@ -7,7 +7,9 @@ Author: Kyle Goss
 */
 
 @import url("css/bootstrap.min.css");
-@import url("css/font-awesome.min.css");
+/* @import url("css/font-awesome.min.css"); */
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("css/fontawesome.min.css");
 @import url("css/variables.css");
 @import url("css/main.css");
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
