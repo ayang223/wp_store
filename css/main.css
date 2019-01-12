@@ -60,7 +60,14 @@ img {max-width: 100%;}
   top: 5px;
 }
 
-#menu-item-85:hover .sub-menu{
+.sub-menu li{
+  clear: left;
+  background-color: #F8F8F8;
+  width: 120px;
+  padding-left: 10px;
+}
+
+#menu-item-85:hover .sub-menu li{
   display: block;
 }
 
@@ -195,4 +202,32 @@ footer li{
   column-count: 2;
 	column-gap: 10px;
 	column-rule: none;
+}
+
+.container-a {
+  background-color: #F8F8F8;
+}
+
+.faq-subheader {
+  font-weight: bold;
+}
+
+.faq-li {
+  font-size: 14px;
+}
+
+.faq-p {
+  font-size: 14px;
+}
+
+.ac-subheader {
+  font-weight: bold;
+}
+
+.ac-li {
+  font-size: 14px;
+}
+
+.ac-p {
+  font-size: 14px;
 }
