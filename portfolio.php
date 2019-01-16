@@ -20,4 +20,4 @@
 <?php endwhile; else: ?>
     <p><?php _e('No posts were found. Sorry!'); ?></p>
 <?php endif; ?>
-<?php wp_footer(); ?>
+<?php get_footer(); ?>
